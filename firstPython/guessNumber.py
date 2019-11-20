@@ -9,13 +9,15 @@ Author: ZarinMaster
 
 # testupdate-testupdate
 # testupdate-testupdate-again
+# testhome
 import random
 
 answer = random.randint(1, 100)
 count = 0
 while True:
-    count += 1
+#   count = count + 1
     number = int(input('请输入：'))
+    count += 1
     if number > answer:
         print('大了！')
     elif number < answer:

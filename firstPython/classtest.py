@@ -45,11 +45,12 @@ class Person(object):
 
 
 def main():
-    person = Person('王大锤', 12, '男')
-    person.play()
-    person.name = '么么哒'
+    myperson = Person('王大锤', 12, '男')
+    myperson.play()
+    a = myperson.name
+    print(a)
     person.age = 22
-    person.play()
+    myperson.play()
     # person.name = '白元芳'  # AttributeError: can't set attribute
 
 
