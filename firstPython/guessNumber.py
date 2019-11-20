@@ -7,6 +7,8 @@ Author: ZarinMaster
 """
 # git 新增----20191120
 # pycharm 新增--20191120 --test
+# pycharm 新增--20191120 --test1
+# pycharm 新增--20191120 --test2
 import random
 
 answer = random.randint(1, 100)
