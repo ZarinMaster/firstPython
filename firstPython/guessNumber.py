@@ -6,6 +6,7 @@ Author: 骆昊
 Author: ZarinMaster
 """
 # git 新增----20191120
+# pycharm 新增--20191120 --test
 import random
 
 answer = random.randint(1, 100)
