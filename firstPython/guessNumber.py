@@ -6,10 +6,7 @@ Author: 骆昊
 Author: ZarinMaster
 """
 # git 新增----20191120
-# pycharm 新增--20191120 --test
-# pycharm 新增--20191120 --test1
-# pycharm 新增--20191120 --test2
-# pycharm 新增--20191120 --test3
+
 # testupdate-testupdate
 # testupdate-testupdate-again
 import random
