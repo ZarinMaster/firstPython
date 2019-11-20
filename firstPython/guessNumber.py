@@ -5,7 +5,7 @@ Version: 0.1
 Author: 骆昊
 Author: ZarinMaster
 """
-
+# git 新增----20191120
 import random
 
 answer = random.randint(1, 100)
