@@ -143,7 +143,7 @@ class Student(object):
         if self.age < 18:
             print('%s只能观看《熊出没》.' % self.name)
         else:
-            print('%s正在观看岛国爱情大电影.heyheyhey!' % self.name)
+            print('%s正在观看岛国爱情大电影.tokyo hot' % self.name)
 
 
 def main():
