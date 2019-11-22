@@ -33,3 +33,18 @@ print(list2)
 
 f = [x for x in range(1, 12, 3)]
 print(f)
+
+
+def fib(n):
+    a, b = 0, 1
+    for _ in range(n):
+        a, b = b, a + b
+        yield a
+
+
+print('fib begins:')
+list_f = [val for val in fib(8)]
+print(list_f)
+
+set_f = {val for val in fib(8)}
+print(set_f)
