@@ -1,0 +1,12 @@
+{
+  "name": "Zarin-DG",
+  "gender": "male",
+  "age": "31",
+  "books": [
+    {
+      "coding": "\u300aC++\u7f16\u7a0b\u6307\u5357\u300b",
+      "history": "\u300a\u53f2\u8bb0\u300b",
+      "music": "\u300a\u5df4\u8d6b\u548c\u8d1d\u591a\u82ac\u300b"
+    }
+  ]
+}
