@@ -5,7 +5,12 @@ Version: 0.1
 Author: ZarinMaster
 """
 
-import time
+# import time
+import json
+
+
+# import exception
+
 
 
 def main():
@@ -24,6 +29,7 @@ def main():
         with open('.res/getDB.sql', 'r', encoding='UTF-8') as f1:
             fline = f1.read()
         print('readlines begin ')
+
         print(fline)
         # fline+=''
         # 读取空文件，然后写入
@@ -38,7 +44,26 @@ def main():
         print(e)
         print("文件打开失败！")
     finally:
-        print("程序执行结束！")
+        print("例子1程序执行结束！")
+    # 例子2开始
+    myDict = {
+        'name': 'Zarin-DG',
+        'gender': 'male',
+        'age': '31',
+        'books': [
+            {'coding': '《C++编程指南》',
+             'history': '《史记》',
+             'music': '《巴赫和贝多芬》'}
+        ]
+    }
+    try:
+        with open('.res/myDict.json', 'w', encoding='utf-8') as fjson:
+            json.dump(myDict, fjson)
+    except IOError as e:
+        print(e)
+    finally:
+        print('例子2执行结束！')
+    # print(dir(exception))
 
 
 if __name__ == '__main__':
