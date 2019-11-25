@@ -33,10 +33,15 @@ def main():
     message['Subject'] = Header('示例代码实验邮件', 'utf-8')
     smtper = SMTP('smtp.163.com')
     # 请自行修改下面的登录口令
-    smtper.login(sender, 'auth163')
-    smtper.sendmail(sender, receivers, message.as_string())
-    smtper.quit()
-    print('邮件发送完成!')
+    try:
+        smtper.login(sender, 'auth164')
+        smtper.sendmail(sender, receivers, message.as_string())
+    except Exception as e:
+        print(e)
+        print('邮件发送失败！')
+    finally:
+        smtper.quit()
+        print('邮件发送完成!')
 
 
 if __name__ == '__main__':
