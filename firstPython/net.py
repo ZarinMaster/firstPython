@@ -34,14 +34,15 @@ def main():
     smtper = SMTP('smtp.163.com')
     # 请自行修改下面的登录口令
     try:
-        smtper.login(sender, 'auth164')
+        smtper.login(sender, 'auth163')
         smtper.sendmail(sender, receivers, message.as_string())
     except Exception as e:
         print(e)
         print('邮件发送失败！')
+    else:
+        print('邮件发送完成!')
     finally:
         smtper.quit()
-        print('邮件发送完成!')
 
 
 if __name__ == '__main__':
