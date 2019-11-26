@@ -1,0 +1,8 @@
+sender: grant_reg@163.com
+receiver: dugang106@163.com
+mailDetails:
+  - nickName: 王大锤
+    emAddr: grant_reg@163.com
+  - nickName: 你是谁
+    emAddr: dugang106@163.com
+Subject: 示例代码实验邮件
