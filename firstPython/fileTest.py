@@ -66,5 +66,21 @@ def main():
     # print(dir(exception))
 
 
+def getFile():
+    myFile = ''
+    try:
+        with open('.res/myDict.json', 'w', encoding='utf-8') as f:
+            json.dump(myFile, f)
+    except FileNotFoundError as e:
+        print(e)
+    except IOError as e:
+        print(e)
+    else:
+        print('文件打开成功！')
+    finally:
+        f.close()
+        return myFile
+
+
 if __name__ == '__main__':
     main()
