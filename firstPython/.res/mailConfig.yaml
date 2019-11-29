@@ -1,7 +1,10 @@
+sender: grant_reg@163.com
 people:
   - nickname: 王大锤
     addr: grant_reg@163.com
   - nickname: 你是谁
     addr: dugang106@163.com
+  - nickname: 单位邮箱
+    addr: dugang@acca.com.cn
 subject: 示例代码实验邮件
 server: smtp.163.com

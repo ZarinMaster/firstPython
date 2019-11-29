@@ -132,12 +132,19 @@ def get_mail_conf():
 
 def main():
     mconf = get_mail_conf()
-
-    mail1 = MyMail('grant_reg@163.com', 'dugang106@163.com', 'smtp.163.com', '测试title', 'mailText')
-    mail1.sendMail()
-    print(mconf)
+    receiver = '<'
+    print(type(receiver))
     for item in mconf['people']:
         print(item['addr'])
+        print(type(item['addr']))
+        receiver += item['addr']
+        receiver += '>;<'
+    receiver = receiver[:-2]
+    print(mconf['sender'])
+    mail1 = MyMail(mconf['sender'], receiver, mconf['server'], mconf['subject'], 'mailText')
+    mail1.sendMail()
+    print(receiver)
+
 
 
 if __name__ == '__main__':
