@@ -1,9 +1,7 @@
-sender: grant_reg@163.com
-receiver: dugang106@163.com
 people:
-  - nickName: 王大锤
-    emAddr: grant_reg@163.com
-  - nickName: 你是谁
-    emAddr: dugang106@163.com
-Subject: 示例代码实验邮件
-smtper: smtp.163.com
+  - nickname: 王大锤
+    addr: grant_reg@163.com
+  - nickname: 你是谁
+    addr: dugang106@163.com
+subject: 示例代码实验邮件
+server: smtp.163.com

@@ -49,7 +49,7 @@ def main():
     myperson.play()
     a = myperson.name
     print(a)
-    person.age = 22
+    myperson.age = 22
     myperson.play()
     # person.name = '白元芳'  # AttributeError: can't set attribute
 

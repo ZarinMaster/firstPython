@@ -1,12 +1,23 @@
 {
-  "name": "Zarin-DG",
-  "gender": "male",
-  "age": "31",
-  "books": [
+  "name": "ZarinMaster",
+  "age": 38,
+  "qq": 12345,
+  "friends": [
+    "\u738b\u5927\u9524",
+    "\u767d\u5143\u82b3"
+  ],
+  "cars": [
     {
-      "coding": "\u300aC++\u7f16\u7a0b\u6307\u5357\u300b",
-      "history": "\u300a\u53f2\u8bb0\u300b",
-      "music": "\u300a\u5df4\u8d6b\u548c\u8d1d\u591a\u82ac\u300b"
+      "brand": "BYD",
+      "max_speed": 180
+    },
+    {
+      "brand": "Audi",
+      "max_speed": 280
+    },
+    {
+      "brand": "Benz",
+      "max_speed": 320
     }
   ]
 }
